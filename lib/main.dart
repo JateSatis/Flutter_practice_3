@@ -37,13 +37,15 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text('You have pushed the button this many times:'),
-          ],
+        child: Text(
+            'Данилов Максим Сергеевич\nИКБО-06-22\n22И1124',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                fontSize: 30,
+                color: Colors.amber
+            )
         ),
-      ),
+      )
     );
   }
 }
