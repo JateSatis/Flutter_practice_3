@@ -57,8 +57,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 )
             ),
-            Padding(
-              padding: EdgeInsets.all(200),
+            Container(
+              padding: EdgeInsets.all(50),
+              decoration: BoxDecoration(
+                color: Colors.green,
+                borderRadius: BorderRadius.circular(30)
+              ),
               child: Text(
                   'Данилов Максим Сергеевич\nИКБО-06-22\n22И1124',
                   textAlign: TextAlign.center,
