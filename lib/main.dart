@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const PsychologyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class PsychologyApp extends StatelessWidget {
+  const PsychologyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
