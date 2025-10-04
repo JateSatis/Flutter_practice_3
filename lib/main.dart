@@ -57,6 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 )
             ),
+            SizedBox(width: 200, height: 200),
             Text(
                 'Данилов Максим Сергеевич\nИКБО-06-22\n22И1124',
                 textAlign: TextAlign.center,
