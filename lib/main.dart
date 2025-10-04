@@ -37,17 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Text(
-                'Данилов Максим Сергеевич\nИКБО-06-22\n22И1124',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                    fontSize: 30,
-                    color: Colors.amber
-                )
-            ),
             ElevatedButton(
                 onPressed: null,
                 style: ButtonStyle(
@@ -63,7 +55,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(
                       color: Colors.blue
                   ),
-                ))
+                )
+            ),
+            Text(
+                'Данилов Максим Сергеевич\nИКБО-06-22\n22И1124',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 30,
+                    color: Colors.amber
+                )
+            ),
           ],
         )
       )
